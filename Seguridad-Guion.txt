@@ -1,0 +1,60 @@
+# Un desastroso día cualquiera 
+
+Es una mañana cualquiera, como siempre apurado y contra reloj por las múltiples actividades que debo realizar.
+
+Mientras desayuno en un bar con acceso a wifi, aprovecho para realizar una compra on-line en mi sitio de compras favorito.
+
+A la salida del bar me encuentro un amigo de la infancia de mi pueblo natal que hace muchos años que no veía. Nos abrazamos y saludamos y me dice que estará un par de días en la ciudad. Intercambiamos números de teléfono y con su teléfono nos sacamos una "selfie" para su página de su red social. Acordamos cenar en mi casa ya que le comunico que estoy solo porque mi familia está de viaje y de paso invitar a otros amigos comunes. Me dice que él se encarga de contactarlos porque cotidianamente está en contacto por medio de esta red social.
+
+AL llegar a mi oficina detecto que uno de mis colegas me dice que está recibiendo "spam" (correo no deseado, habitualmente de propaganda o mensajes engañosos) desde mi cuenta. Le explico que no es imposible porque puedo ser víctima de "joe job", es decir que se puede estar enviando correos desde un sistema que dice ser mi cuenta. Muchos servidores de correo en internet no hacen algunos chequeos para verificar que realmente ese correo debe salir sólo de ciertas direcciones IP para rechazarlos. Ante esa situación uno no puede hacer demasiado (sólo reclamar a los mail-masters que configuren bien sus servidores).
+
+Pero por las dudas, ingreso a mi correo electrónico y detecto que realmente los mensajes salieron de mi cuenta ya que están en la carpeta "enviados".
+
+Eso sólo puede significar una cosa: Mi cuenta de correo ha sido robada (accedida) y está siendo usada para enviar spam.
+
+Eso dispara un alerta: Mi cuenta bancaria podría estar comprometida también (mediante home-banking). Accedo al sistema de mi banco y encuentro que en los movimientos asociados a la tarjeta de crédito hay uno reciente y por un monto importante. Es por una supuesta compra por internet a una empresa francesa por un monto muy importante.
+
+De manera inmediata llamo al 0800 correspondiente para rechazar esa compra. Luego de más de una hora al teléfono, la transacción queda bajo investigación, es decir que podrían efectivamente realizarme el débito.
+Obviamente también me robaron, además de la cuenta de correo, los datos de la tarjeta.
+
+Pero cómo? Estoy seguro de no haber divulgado nunca los datos de la tarjeta por el correo. 
+
+Unas horas mas tarde, mi mal día aún no termina y un vecino me llama por teléfono diciendo que detectaron que la puerta de entrada de mi casa ha sido violentada.
+Rápidamente voy a mi casa y efectivamente encuentro que me han robado varias cosas.
+
+Qué pasó? Se alinearon los astros para que todo lo malo me pase en el mismo día?
+
+Como trabajo en computación, al menos trato de resolver el problema del robo de la cuenta de correo y de los datos de la tarjeta de crédito.
+
+Reviso y repaso mentalmente qué hice:
+
+1. Accedí a una red wifi y compré un artículo on-line.
+2. En mi cuenta del sitio de compras figura mi correo electrónico y los datos de la tarjeta de crédito.
+
+Es muy probable que ese haya sido el problema. Accedí a un sitio a través de una red desconocida. Podría haber sufrido un ataque de "hombre en el medio" si el router estaría preparado para capturar el tráfico y presentarme una página de login clonada del sitio de compras, pero que me capturase su contraseña.
+
+Ese tipo de ataque es muy difícl de detectar por un usuario. Dependiendo de su grado de sofisticación, podría ser indetectable aún por un especialista.
+
+Ok, eso explica el robo de la cuenta de correo (ya que la contraseña es la misma que uso en el sitio de compras) y lo de la tarjeta de crédito.
+
+Lo del robo de mi casa es pura mala suerte, supongo. 
+
+Un momento, y si no?
+
+Accediendo a la red social, veo que mi amigo publicó la foto, el el cual fui etiquetado y comenta a sus "amigos" de la invitación a la cena. Varios confirman y otros se excusan.
+
+Siguiendo a los "amigos", veo que algunos de ellos tienen configuradas su cuentas de la red social de tal forma que a sus publicaciones y comentarios pueden verlas "los amigos de sus amigos", inclusive hay uno que todo su contenido es público.
+
+Continuando con el análisis de las relaciones de "amigos" de "amigos", veo que aproximadamente unas 250 "personas" pueden visualizar la publicación.
+
+Si entre ellos hubiese un "amigo de lo ajeno", éste sujeto sabría que mi casa estaba sola, incluyendo hasta qué hora ya que accediendo a mi página web (ya que estaba etiquetado en la publicación de mi amigo), encontraría información sobre mi lugar de trabajo y mis horarios.
+
+Conclusiones:
+
+- No acceder a sitios que puedan revelar secretos (usuario, contraseña) en una red (pública o privada) no confiable.
+- Revelar información en exceso es peligroso (no hacía falta decir que mi casa estaba desocupada)
+- No sabemos cuál es el verdadero alcance de una publicación en las redes sociales, porque no dependen sólo de nosotros, sino también de nuestros "amigos".
+- Los riesgos pueden ser muy grandes:
+  - pérdida de identidad
+  - pérdida de control de recursos (cuentas de usuario, cuentas bancarias, compras con tarjetas, etc).
+  - pérdidas 
